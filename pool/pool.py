@@ -10,15 +10,17 @@ def initcheck():
         k0 = file.open("matmod.py", 'r')
     except:
         sys.path.append('/backup/')
-        import matmodb.py
+        import matmodb as mat
     
     k1 = file.open("backup/matmod.py", 'r')
     if k0.readlines() == k1.readlines():
-        import matmod
+        import matmod as mat
     else:
         sys.path.append('/backup/')
-        import matmodb
+        import matmodb as mat
         
+initcheck()
+
 class soup:
     def __init__(self, mayhem, words):
         """
@@ -52,11 +54,11 @@ class soup:
         k = self.may
         
         if dirhor != "stgh":
-            k = twist(k)
+            k = mat.twist(k)
         if ver != True:
-            k = trans(k)
+            k = mat.trans(k)
         if mode == "diag":
-            k = scramble(k)
+            k = mat.scramble(k)
             
         return k
         
