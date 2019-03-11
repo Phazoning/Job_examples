@@ -148,3 +148,12 @@ def main(db):
                     co3.execute("DROP * FROM arrivals WHERE code = " + str(d))
                 except:
                     print()
+    f1 = threading.Thread(target=arrloop)
+    f2 = threading.Thread(target=deploop)
+    f3 = threading.Thread(target=console)
+    threads.append(f1)
+    threads.append(f2)
+    threads.append(f3)
+    f1.start()
+    f2.start()
+    f3.start()
