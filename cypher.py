@@ -2,7 +2,7 @@
 """
 Created on Fri Mar 22 17:59:29 2019
 
-@author: HP
+@author: Alonso Morenas Díaz
 """
 import random
 
