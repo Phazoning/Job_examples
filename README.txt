@@ -8,8 +8,7 @@ A: Nothing specific, but the main idea is to upload files in order to show my pr
 
 Q: How's each file organized?
 A: It's easy, each function is going to have a comment (in English) with the meaning of each parameter, how the function works
-   and the values/s it returns if there is any. The only exception to this are functions within functions, whose comment is added
-   to the main function one, setting it as a sub-function
+   and the values/s it returns if there is any. This afects nested functions
    
 Q: I found an error on a script, should I report it?
 A: Yes, please, do not hesitate to contact me in case you have found a fault on a script
@@ -24,9 +23,7 @@ P: ¿Qué se subirá aquí?
 R: Nada en especial, aunque la idea principal es subir cosas para mostrar mis habilidades en programación
 
 P: ¿Cómo se organiza cada archivo?
-R: Es muy simple: cada función va a venir comentada (en inglés) con el significado de cada parámetro, cómo funciona y lo que devuelve, si
-   devolviese algo. La única excepción son las funciones dentro de funciones, cuyo comentario se añadirá al de la función principal       
-   indicando que es una subfunción
+R: Es muy simple: cada función va a venir comentada (en inglés) con el significado de cada parámetro, cómo funciona y lo que devuelve, si devolviese algo. Esto también aplica a funciones anidadas 
 
 P: He encontrado un error de código, ¿puedo informarte de él?
 R: Si, por favor. En caso de que encontrares un error, no dudes en ponerte en contacto conmigo
