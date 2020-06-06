@@ -41,7 +41,7 @@ def dredger(file):
             dic0[splits[0]] = splits[1].replace("\n", "")
         return dic0
 
-    conn = psy.connect("dbname=postgres user=postgres password=P0RnO53i")
+    conn = psy.connect("dbname=%%%% user=**** password=####")
     cur = conn.cursor()
 
     par = to_list(list(open(file)))
