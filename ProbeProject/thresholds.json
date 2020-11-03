@@ -1,0 +1,32 @@
+{
+  "0": {
+    "lower": 0,
+    "higher": 30,
+    "code": "green",
+    "status": "Internet OK"
+  },
+  "1": {
+    "lower": 31,
+    "higher": 100,
+    "code": "yellow",
+    "status": "Internet connection slow"
+  },
+  "2": {
+    "lower": 101,
+    "higher": 300,
+    "code": "orange",
+    "status": "Internet connection very slow"
+  },
+  "3": {
+    "lower": 301,
+    "higher": 600,
+    "code": "red",
+    "status": "Internet connection barely normal"
+  },
+  "4": {
+    "lower": 601,
+    "higher": 1200,
+    "code": "black",
+    "status": "Internet connection with almost no speed"
+  }
+}
